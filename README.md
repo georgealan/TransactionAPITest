@@ -27,7 +27,14 @@ spring.datasource.password=SUA SENHA // <- ALTERAR A SENHA AQUI
 
 Foi utilizado o postman para testar as requisições, veja os prints de tela dos testes:
 
-<img src="/docs/Listar-Todos-GET-Postman.JPG" alt="Bootcamp GoStack 9.0"/>
-<img src="/docs/Recuperar-1-Transaction-GET.JPG" alt="Bootcamp GoStack 9.0"/>
+## Cria transaction http://localhost:8080/transaction/
 <img src="/docs/Criar-Transaction-POST.JPG" alt="Bootcamp GoStack 9.0"/>
+
+## Lista todos http://localhost:8080/transaction/all
+<img src="/docs/Listar-Todos-GET-Postman.JPG" alt="Bootcamp GoStack 9.0"/>
+
+## Recupera um transaction pelo id http://localhost:8080/transaction/{codigo}
+<img src="/docs/Recuperar-1-Transaction-GET.JPG" alt="Bootcamp GoStack 9.0"/>
+
+## Atualiza um transaction pelo id http://localhost:8080/transaction/{codigo}
 <img src="/docs/Atualizando-Transaction-PUT.JPG" alt="Bootcamp GoStack 9.0"/>
