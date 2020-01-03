@@ -17,11 +17,12 @@ do Flyway, assim que o spring boot iniciar vai criar o banco com todos os dados 
 #### Configurar senha do root do seu MySQL
 Para que a criação do banco de dados funcione será necessário alterar a senha no arquivo application.properties na linha 4, do seu usuario root do MySQL:
 
+```
 spring.jpa.database=mysql
 spring.datasource.url=jdbc:mysql://localhost:3306/transactionapi?createDatabaseIfNotExist=true&useSSL=false
 spring.datasource.username=root
 spring.datasource.password=SUA SENHA // <- ALTERAR A SENHA AQUI
-
+```
 ## Teste de chamadas da API pelo Postman
 
 Foi utilizado o postman para testar as requisições, veja os prints de tela dos testes:
